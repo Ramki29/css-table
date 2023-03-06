@@ -1,0 +1,46 @@
+tr,th,td
+	{
+	border:1px solid black;
+	}	
+	
+table
+	{
+	border-collapse:collapse;
+	width:80%;
+	height:auto;
+	text-align:center;
+	border-bottom:2px solid red;
+	border-top:2px solid red;
+	border-right:2px solid red;
+	border-left:2px solid red;
+	}
+	
+td
+	{
+	height:50px;
+	vertical-align:middle;
+	padding:40px;
+	}
+	
+tr:nth-child(even)
+	{
+	background-color:pink;
+	}	
+	
+	
+tr:nth-child(odd)
+	{
+	background-color:aqua;
+	}	
+
+tr:hover
+	{	
+	background-color:yellow;
+	font-size:40px;
+	}
+	
+td
+	{
+	border-bottom:3px solid #FAC20A;
+	}
+	
